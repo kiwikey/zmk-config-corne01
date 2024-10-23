@@ -1,10 +1,12 @@
 manifest:
   remotes:
     - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: kiwikey_zmkfirmware
       url-base: https://github.com/kiwikey
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: kiwikey_zmkfirmware
       revision: dev_test01
       import: app/west.yml
   self:
