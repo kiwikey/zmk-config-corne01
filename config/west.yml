@@ -7,7 +7,7 @@ manifest:
   projects:
     - name: zmk
       remote: kiwikey_zmkfirmware
-      revision: dev_test01
+      revision: dev_custom_workflows
       import: app/west.yml
   self:
     path: config
