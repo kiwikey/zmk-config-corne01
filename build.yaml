@@ -58,12 +58,12 @@ include:
   - board: nice_nano_v2
     # shield: corne_left nice_view_adapter nice_view
     # cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"Nice_Corne_View\"
-    artifact-name: nice_corne_left
-    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KiwiCorne_BLE\"
+    artifact-name: kiwicorne_oled_left
+    cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KiwiCorne_OLED\"
     shield: corne_left # for OLED no nice_view
   - board: nice_nano_v2
     # shield: corne_right nice_view_adapter nice_view
-    artifact-name: nice_corne_right
+    artifact-name: kiwicorne_oled_right
     shield: corne_right # for OLED no nice_view
 
     # puchi
