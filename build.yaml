@@ -56,12 +56,12 @@ include:
 
     # nice
   - board: nice_nano_v2
+    shield: corne_left # for OLED
     artifact-name: kiwicorne_oled_left
     cmake-args: -DCONFIG_ZMK_KEYBOARD_NAME=\"KiwiCorne_OLED\"
-    shield: corne_left # for OLED
   - board: nice_nano_v2
-    artifact-name: kiwicorne_oled_right
     shield: corne_right # for OLED
+    artifact-name: kiwicorne_oled_right
 
     # settings_reset
   - board: nice_nano_v2
